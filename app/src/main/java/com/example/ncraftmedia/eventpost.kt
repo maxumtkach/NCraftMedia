@@ -1,5 +1,7 @@
 package com.example.ncraftmedia
 
+import com.example.ncraftmedia.dto.Post
+
 class EventPost(
     author: String,
     content: String,

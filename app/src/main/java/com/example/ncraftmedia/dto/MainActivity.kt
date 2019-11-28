@@ -1,27 +1,18 @@
-package com.example.ncraftmedia
+package com.example.ncraftmedia.dto
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.Color
-import android.location.Location
-import android.location.LocationListener
-import android.location.LocationManager
 import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.SystemClock
-import android.util.Log
 import android.view.View
-import android.widget.ImageButton
-import android.widget.Toast
 import androidx.annotation.RequiresApi
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.ncraftmedia.EventPost
+import com.example.ncraftmedia.R
+import kotlinx.android.synthetic.main.post_list_item.*
 import java.sql.Timestamp
-import java.text.ParseException
-import java.text.SimpleDateFormat
-import java.time.Instant
-import java.time.ZoneId
 import java.util.*
 
 
